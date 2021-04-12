@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.form {
+  max-width: 30rem;
+  height: 100%;
+  height: 40rem;
+  background-color: #d4d1d1;
+  padding: 3rem;
+}
+
+.form p {
+  text-align: center;
+}
+
+form > * {
+  display: block;
+  width: 100%;
+}
+
+form label {
+  padding-top: 1rem;
+  padding-bottom: 0.4rem;
+}
